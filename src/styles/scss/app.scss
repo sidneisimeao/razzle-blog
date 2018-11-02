@@ -1,0 +1,89 @@
+@charset "utf-8";
+@import "../../../node_modules/bulma/bulma.sass";
+
+
+$primary-color: #108db8;
+$sans-serif-font: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+  'Lucida Grande', sans-serif;
+
+body {
+    font-family: $sans-serif-font;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;   
+  }
+  
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  nav {
+    width: 100%;
+    background: $primary-color;
+  
+    a {
+      color: white;
+      padding: 1rem;
+      display: inline-block;
+    }
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+ 
+
+a {
+  color: grey;
+}
+
+.main-content {
+  padding-top: 2.5rem;
+  margin: 3%; 
+}
+
+.content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
+  font-family: 'Crimson Text', serif;
+}
+
+.button:focus {
+  border-color: #4a4a4a;
+  box-shadow: 0 0 0 #4a4a4a;
+}
+
+.menu-label:not(:first-child) {
+  margin-top: 0;
+}
+
+.content p {
+  font-size: 1.1em;
+}
+
+.header-content small {
+  font-size: 1.0em;
+}
+
+.header-content {
+  padding-bottom: 20px;
+}
+
+.header-content img {
+  padding-bottom: 20px;
+}
+
+.has-padding {
+  padding-bottom: 51px;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+  
