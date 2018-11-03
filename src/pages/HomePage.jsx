@@ -9,7 +9,7 @@ export default () => (
       <Posts />
     </div>
     <div className="column is-full-mobile is-one-third-tablet">
-      
+      Oi eu Sou o GOKU
     </div>
   </Fragment>
 );

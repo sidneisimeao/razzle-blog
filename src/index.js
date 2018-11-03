@@ -7,7 +7,7 @@ let currentApp = app;
 
 const port = 21037;
 
-server.listen(process.env.PORT || port, error => {
+server.listen(port, error => {
   if (error) {
     console.log(error);
   }

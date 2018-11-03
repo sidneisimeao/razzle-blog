@@ -9,6 +9,4 @@ const Posts = ({ posts,  match }) => {
   return !!post ? <Post key={post.slug} {...post} /> : []    
 }
 
-//( posts || []).filter( post => <Post key={post.slug} {...post} />)
-
 export default withPosts(Posts);

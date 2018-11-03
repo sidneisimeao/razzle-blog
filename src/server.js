@@ -30,6 +30,7 @@ server
         `<!doctype html>
     <html lang="">
     <head>
+    <meta name="google-site-verification" content="ATsGYZpFKonsLx_h0R5IyC0ntncQ2QYA6PQyknMpWe4" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="utf-8" />
         <title>Welcome to Razzle</title>

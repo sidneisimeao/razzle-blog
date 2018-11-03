@@ -16,17 +16,17 @@ class App extends Component {
       this.hydrateStateWithLocalStorage();     
     }
 
-    async hydrateStateWithLocalStorage(){
+    hydrateStateWithLocalStorage(){
       try {
 
         const storage = {
           posts:[]
         };
 
-        storage.posts = await localforage.getItem('posts');
+        storage.posts = localforage.getItem('posts');
 
         if(!storage.posts){
-          const { posts } = await import('./posts.json');
+          const { posts } = import('./posts.json');
           storage.posts = posts;
           localforage.setItem('posts', storage.posts );
         }
