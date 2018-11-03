@@ -8,8 +8,8 @@ export default () => (
     <div className="column is-centered is-full-mobile">
       <Posts />
     </div>
-    <div className="column is-full-mobile is-one-third-tablet">
-      Oi eu Sou o GOKU
+    <div className="column is-full-mobile is-one-third-tablet"> 
+      oi
     </div>
   </Fragment>
 );
