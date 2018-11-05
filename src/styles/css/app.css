@@ -6776,8 +6776,7 @@ a {
   color: grey; }
 
 .main-content {
-  padding-top: 2.5rem;
-  margin: 3%; }
+  margin: 2%; }
 
 .content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
   font-family: 'Crimson Text', serif; }
@@ -6806,3 +6805,12 @@ a {
 
 .footer {
   margin-top: 2rem; }
+
+.container {
+  margin: 20px; }
+
+.navbar-menu-description {
+  position: absolute;
+  top: 18px;
+  left: -48px;
+  font-size: 12px; }

@@ -26,16 +26,17 @@ class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar" aria-label="main navigation">
+            <nav className="navbar is-primary " aria-label="main navigation">
                 <div className="navbar-brand">
-                    <a className="navbar-item" href="https://bulma.io">
+                <a className="navbar-item" href="https://bulma.io">
                         <img alt={'logotipo'} src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
                     </a>
                     <div role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
-                    </div>
+                        <p className="navbar-menu-description">MENU</p>
+                    </div>                   
                 </div>
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">

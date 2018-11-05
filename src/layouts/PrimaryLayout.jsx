@@ -9,10 +9,11 @@ import PostPage from 'pages/PostPage';
 import BlogPage from 'pages/BlogPage';
 
 const PrimaryLayout = () => (
-  <Fragment>
-    <Navbar />
-    <div className="main-content">
-      <div className="container ">
+  <Fragment>    
+     <Navbar />
+    <div className="main-content">    
+      <div className="container">
+     
         <div className="columns is-multiline is-mobile is-centered">
           <Switch>
             <Route exact path={"/"} component={HomePage} />
