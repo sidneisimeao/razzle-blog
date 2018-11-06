@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+$card-color:yellow;
+$white: white;
+$card-shadow: 0 2px 3px rgba($white, 0.1), 0 0 0 1px rgba($white, 0.1);
+$card-background-color: black;
+
+.card{
+    color: $card-color;    
+}

@@ -21,4 +21,4 @@ const PrimaryLayout = () => (
   </Fragment>
 );
 
-export default PrimaryLayout;;
+export default PrimaryLayout;

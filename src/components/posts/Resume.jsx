@@ -1,8 +1,6 @@
 import React from 'react';
-import convert from 'htmr';
 import { Link } from 'react-router-dom';
-
-import "styles/css/post.css";
+import convert from 'htmr';
 
 const Resume = ({ author, slug, title, category, date, resume }) => {
     return (

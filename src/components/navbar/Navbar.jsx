@@ -1,10 +1,10 @@
 
 import React, { Component } from "react";
-//import { FaTwitter } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
-
+    
     componentDidMount() {
         // Get all "navbar-burger" elements
         const navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -28,15 +28,13 @@ class Navbar extends Component {
         return (
             <nav className="navbar" aria-label="main navigation">
                 <div className="navbar-brand">
-                <a className="navbar-item" href="https://bulma.io">
-                        <img alt={'logotipo'} src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
-                    </a>
+                <Link className="navbar-item navbar-logo" to='/'>{`<Sidnei Simmon />`}</Link>
                     <div role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <p className="navbar-menu-description">MENU</p>
-                    </div>                   
+                    </div>
                 </div>
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
@@ -48,6 +46,7 @@ class Navbar extends Component {
                         <div className="navbar-item">
                             <div className="buttons">
                                 <Link className="button is-primary" to='/'>
+                                    <FaSearch />
                                 </Link>
                             </div>
                         </div>

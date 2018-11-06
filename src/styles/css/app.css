@@ -1,5 +1,5 @@
-/*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+/*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6766,13 +6766,11 @@ nav {
   nav a {
     color: white;
     padding: 1rem;
-    display: inline-block; }
+    display: inline-block;
+    font-size: 1rem; }
 
 .content {
   padding: 1rem; }
-
-a {
-  color: grey; }
 
 .main-content {
   margin: 2%; }
@@ -6811,3 +6809,7 @@ a {
   top: 18px;
   left: -48px;
   font-size: 12px; }
+
+.navbar-logo {
+  font-size: 1.4rem;
+  font-weight: bold; }

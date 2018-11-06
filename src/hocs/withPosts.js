@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { Consumer } from "AppContext";
+import AppContext from "context";
 
 const withPosts = WrappedComponent => (props =>
-    <Consumer>
-        {({ posts }) => <WrappedComponent {...props} posts={posts} />}
-    </Consumer>
+    <AppContext.Consumer>
+        {({ posts, ...rest }) => <WrappedComponent {...props} {...posts} {...rest} />}
+    </AppContext.Consumer>
 );
 
 export default withPosts;
