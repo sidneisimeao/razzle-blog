@@ -16,9 +16,15 @@ export default () => (
             <meta property="og:title" content="Página inicial, postagens mais recentes" />
             <meta property="og:site_name" content="Sidnei Simmon" />
             <meta property="og:description" content={description} />
-        </Helmet>
+        </Helmet>     
+    <div className="main-content">    
+      <div className="container">     
+        <div className="columns is-multiline is-mobile is-centered">
         <div className="column is-centered">
             <Posts />
         </div>
+        </div>
+      </div>
+    </div>       
     </Fragment>
 );

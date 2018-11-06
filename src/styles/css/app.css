@@ -1,4 +1,5 @@
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6747,16 +6748,14 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
   margin: 0;
   padding: 0; }
 
 a {
   text-decoration: none;
-  color: #108db8;
-  font-weight: bold; }
+  color: #108db8; }
 
 img {
   max-width: 100%; }
@@ -6779,7 +6778,8 @@ a {
   margin: 2%; }
 
 .content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
-  font-family: 'Crimson Text', serif; }
+  font-family: "Roboto", sans-serif;
+  font-weight: 0; }
 
 .button:focus {
   border-color: #4a4a4a;
@@ -6787,9 +6787,6 @@ a {
 
 .menu-label:not(:first-child) {
   margin-top: 0; }
-
-.content p {
-  font-size: 1.1em; }
 
 .header-content small {
   font-size: 1.0em; }

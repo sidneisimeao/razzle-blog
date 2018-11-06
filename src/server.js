@@ -31,13 +31,15 @@ server
     } else {
       res.status(200).send(
         `<!doctype html>
-    <html lang="pt-br"
+    <html lang="pt-br">
     <head>
         <meta charset="utf-8" />              
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="ATsGYZpFKonsLx_h0R5IyC0ntncQ2QYA6PQyknMpWe4" />
         <meta name="description" content="Um blog de um desenvolvedor Front End, fã de React, Javascript, SEO e novas tecnologias.">    
+        <meta property="og:type" content="website" />           
+        <meta property="og:locale" content="pt_BR" />      
         ${helmet.title.toString()}
         ${helmet.meta.toString()}
         ${helmet.link.toString()}        

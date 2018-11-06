@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet';
-//import Card from 'components/card/Card';
+import Card from 'components/card/Card';
 import Posts from 'components/posts/Posts';
 
 const canonical = "https://www.sidneisimmon.com";
@@ -20,7 +20,7 @@ export default () => (
       <Posts />
     </div>
     <div className="column is-full-mobile is-one-third-tablet">
-
+     
     </div>
   </Fragment>
 );

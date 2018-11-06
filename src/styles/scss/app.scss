@@ -1,27 +1,22 @@
 @charset "utf-8";
 @import "../../../node_modules/bulma/bulma.sass";
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 $primary-color: #108db8;
-$sans-serif-font: 'HelveticaNeue-Light', 
-                  'Helvetica Neue Light', 
-                  'Helvetica Neue', Helvetica, Arial,
-                  'Lucida Grande', sans-serif;
+$sans-serif-font: 'Roboto', sans-serif;
 
 body {
-    font-family: $sans-serif-font;
-    font-weight: 300;
-    font-size: 16px;
+    font-family: $sans-serif-font;    
+    font-size: 1.3em;
     margin: 0;
     padding: 0;   
   }
   
   a {
     text-decoration: none;
-    color: $primary-color;
-    font-weight: bold;
+    color: $primary-color;    
   }
-  
+ 
   img {
     max-width: 100%;
   }
@@ -45,13 +40,13 @@ a {
   color: grey;
 }
 
-.main-content {
-  //padding-top: 2.5rem;
+.main-content {  
   margin: 2%; 
 }
 
 .content p, .header-content, .footer, .nav-header, .input, .textarea, .nav-footer p {
-  font-family: 'Crimson Text', serif;
+  font-family: $sans-serif-font;
+  font-weight: 0;
 }
 
 .button:focus {
@@ -61,10 +56,6 @@ a {
 
 .menu-label:not(:first-child) {
   margin-top: 0;
-}
-
-.content p {
-  font-size: 1.1em;
 }
 
 .header-content small {
