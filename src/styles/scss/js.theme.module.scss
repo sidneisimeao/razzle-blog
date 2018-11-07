@@ -1,11 +1,55 @@
 @charset "utf-8";
 
-$color:#F3DC6C;;
+$color:#7c6600;
+$color-title:#5b3848;
+$card-header-box-shadow: none;
+$black: #606060;
+$card-shadow:0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default;
 
 .card{
-    color: $color;  
+    color: $color;    
+    box-shadow: $card-shadow;
+    min-height: 394px;
+    padding-bottom: 20px;
 }
 
 .subtitle{
-    color: $color!important; 
+    color: $color!important;   
+}
+
+.card-header{
+    box-shadow: $card-header-box-shadow;
+}
+
+.card-header-title{
+    color: $color-title!important; 
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 28px;
+    margin-top: 30px;    
+    padding-bottom: 0px;
+    border: none;
+}
+
+.content-resume{
+    color: $color-title!important;   
+}
+
+.card-footer{ 
+    border:none!important;  
+    box-shadow: none!important; 
+    width: 90%!important;
+    margin-left: 6%;
+}
+
+.card-footer-item{
+    position: relative;
+    display:block;
+    border: 1px solid $color;
+    color: $color;
+    padding: 6px;
+    padding-left: 20px;    
+    padding-right: 20px;    
+    border-radius: 5px;
+    margin:4px;    
 }

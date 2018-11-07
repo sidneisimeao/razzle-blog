@@ -1,5 +1,40 @@
 .card {
-  color: #F3DC6C; }
+  color: #7c6600;
+  box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1), 0 0 0 1px rgba(96, 96, 96, 0.1);
+  min-height: 394px;
+  padding-bottom: 20px; }
 
 .subtitle {
-  color: #F3DC6C !important; }
+  color: #7c6600 !important; }
+
+.card-header {
+  box-shadow: none; }
+
+.card-header-title {
+  color: #5b3848 !important;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-left: 28px;
+  margin-top: 30px;
+  padding-bottom: 0px;
+  border: none; }
+
+.content-resume {
+  color: #5b3848 !important; }
+
+.card-footer {
+  border: none !important;
+  box-shadow: none !important;
+  width: 90% !important;
+  margin-left: 6%; }
+
+.card-footer-item {
+  position: relative;
+  display: block;
+  border: 1px solid #7c6600;
+  color: #7c6600;
+  padding: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin: 4px; }
