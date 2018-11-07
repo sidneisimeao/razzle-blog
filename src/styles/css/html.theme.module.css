@@ -2,7 +2,8 @@
   color: #E44D26;
   box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1), 0 0 0 1px rgba(96, 96, 96, 0.1);
   min-height: 394px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  border-radius: 5px; }
 
 .subtitle {
   color: #E44D26 !important; }
@@ -38,3 +39,6 @@
   padding-right: 20px;
   border-radius: 5px;
   margin: 4px; }
+  .card-footer-item:hover {
+    color: white;
+    background-color: #E44D26; }

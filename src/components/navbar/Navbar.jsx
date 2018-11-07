@@ -28,7 +28,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar is-light" aria-label="main navigation">
                 <div className="navbar-brand">
-                <Link className="navbar-item navbar-logo" to='/'>{`<Willian Justen />`}</Link>
+                <Link className="navbar-item navbar-logo" to='/'>{`<Sidnei Simmon />`}</Link>
                     <div role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
