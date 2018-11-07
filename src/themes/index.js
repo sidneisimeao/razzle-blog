@@ -1,4 +1,6 @@
-import blue from "styles/css/blue.theme.module.css";
-import yellow from "styles/css/yellow.theme.module.css";
+import js from "styles/css/js.theme.module.css";
+import react from "styles/css/react.theme.module.css";
+import css from "styles/css/css.theme.module.css";
+import html from "styles/css/html.theme.module.css";
 
-export { blue, yellow }
+export { js, react, css, html };
